@@ -35,7 +35,7 @@ if(!post) return <p>No data Available</p>
         <p>{post.description}</p>
           
 
-          <Image width={300} height={300} src='/IMAGES/1698643756327-WIN_20231025_17_39_14_Pro.jpg'/>
+          <Image width={300} height={300} src='/IMAGES/1698643756327-WIN_20231025_17_39_14_Pro.jpg' alt='prof'/>
           <Link href='/'><h1> Go to Home</h1></Link>
         </Layout>
        
