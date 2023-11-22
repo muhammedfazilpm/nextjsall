@@ -3,7 +3,7 @@
 export default function user({users}){
     return(
         <div style={{textAlign:'center'}}>
-            <h1>This is from next Api</h1>
+            <h1>This is from next Api and database</h1>
            {users&&
             users.map(u=>(
                 <div key={u.id}>
