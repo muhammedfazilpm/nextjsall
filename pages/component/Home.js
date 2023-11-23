@@ -11,7 +11,7 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = { title: "daily tuition", description: "Post data" };
+  const posts = { title: "day tuition", description: "Post data" };
 
   return {
     props: {
